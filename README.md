@@ -1,4 +1,4 @@
-# handy-commands
+# useful-commands
 
 
 <details>
