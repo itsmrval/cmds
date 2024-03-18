@@ -17,3 +17,9 @@
   ```sh
   awk '/^size/ { print $1 " " $3 / 1048576 }' < /proc/spl/kstat/zfs/arcstats
   ```
+
+### NodeJS 
+* Repo setup (20.X)
+  ```sh
+  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+  ```
