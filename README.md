@@ -5,6 +5,8 @@
   <summary>Table of contents</summary>
   <ol>
     <li><a href="#ZFS">ZFS</a></li>
+    <li><a href="#nodejs">NodeJS</a></li>
+
   </ol>
 </details>
 
@@ -22,4 +24,7 @@
 * Repo setup (20.X)
   ```sh
   curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+  ```
+  ```sh
+  apt install -y nodejs
   ```
