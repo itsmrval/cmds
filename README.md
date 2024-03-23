@@ -28,3 +28,9 @@
   ```sh
   apt install -y nodejs
   ```
+
+### Network
+* Display PPS
+  ```sh
+  cat /sys/class/net/vmbr0/statistics/tx_packets
+  ```
