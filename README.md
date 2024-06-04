@@ -37,12 +37,19 @@
   ```
 
 ### PHP
+
 * Repo setup
+  
+  For debian:
+  ```sh
+  curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
+  ```
+  For ubuntu:
   ```sh
   LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
-  apt update
   ```
 * Package install
   ```sh
+  apt update
   apt install -y php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip}
   ```
