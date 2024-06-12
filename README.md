@@ -1,16 +1,17 @@
-# useful-commands
+<br />
+<div align="center">
+  <a href="">
+    <img src="https://raw.githubusercontent.com/itsmrval/cmds/main/logo.svg" alt="Logo" width="80" height="80">
+  </a>
 
+  <h3 align="center">Commands directory</h3>
 
-<details>
-  <summary>Table of contents</summary>
-  <ol>
-    <li><a href="#ZFS">ZFS</a></li>
-    <li><a href="#nodejs">NodeJS</a></li>
-
-  </ol>
-</details>
-
-
+  <p align="center">
+    This repository is a draft of useful commands
+    <br />
+    <a href="https://github.com/itsmrval/cmds/pulls">Pull request</a>
+  </p>
+</div>
 
 
 ### ZFS
