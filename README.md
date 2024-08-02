@@ -54,3 +54,19 @@
   apt update
   apt install -y php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip}
   ```
+
+
+### GO
+
+* Compile for linux on darwin
+
+  Install x86 gcc linux
+  ```sh
+  brew tap SergioBenitez/osxct                                                                                                                            took 53s at 13:59:18
+  brew install x86_64-unknown-linux-gnu
+  ```
+
+  Build
+  ```sh
+  CC=x86_64-unknown-linux-gnu-gcc CGO_ENABLED=1 GOARCH=amd64 GOOS=linux go build
+  ```
