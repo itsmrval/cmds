@@ -20,6 +20,12 @@
   ```sh
   awk '/^size/ { print $1 " " $3 / 1048576 }' < /proc/spl/kstat/zfs/arcstats
   ```
+### Kubernetes
+* Uninstall
+  ```sh
+  bash <( curl -s https://raw.githubusercontent.com/itsmrval/cmds/main/kubernetes/uninstall.sh )
+  ```
+
 
 ### NodeJS 
 * Repo setup (20.X)
