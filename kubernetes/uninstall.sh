@@ -14,4 +14,3 @@ systemctl restart docker
 sudo apt purge docker-engine docker docker.io docker-ce docker-ce-cli containerd containerd.io runc --allow-change-held-packages -y
 sudo apt autoremove --purge -y --allow-change-held-packages
 sudo groupdel docker
-sudo systemctl reload-daemon
