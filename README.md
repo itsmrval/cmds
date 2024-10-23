@@ -15,11 +15,18 @@
 
 
 ### ZFS
-
 * Used memory
   ```sh
   awk '/^size/ { print $1 " " $3 / 1048576 }' < /proc/spl/kstat/zfs/arcstats
   ```
+
+### Docker
+* Setup
+  ```sh
+  curl -sSL https://get.docker.com/ | CHANNEL=stable bash
+  ```
+
+  
 ### Kubernetes
 * Uninstall
   ```sh
